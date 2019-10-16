@@ -1,0 +1,188 @@
+header {
+  background-image: url(../img/emagrecer3.jpg );
+  height: 300px;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.menu{
+    background:transparent;
+    box-shadow: none;
+}
+.brand-logo{
+  margin-top:20px;
+}
+
+.titulo{
+  margin-top: 90px;
+}
+
+.titulo h1{
+  font-size: 4em;
+  color: #f5f5f5;
+  font-weight: 900;
+}
+
+.sobre{
+  margin-top: 30px;
+  padding-bottom: 200px;
+}
+
+.sobre h3{
+  font-size: 2em;
+  font-weight: 800; 
+  color: #444;
+}
+
+.sobre span{
+  font-size: 1.1em;
+  padding: 10px;
+}
+
+.sobre img{
+  animation: animafoto 2s;
+}
+
+@keyframes animafoto{
+  0%{
+    transform: scale(0);
+  }
+
+  50%{
+    transform: scale(2);
+  }
+
+}
+
+.servicos{
+  background: #eeeeee;
+  padding: 20px;
+
+}
+
+.servicos h3{
+  font-size: 2em;
+  font-weight: 800;
+  columns: #999999;;
+  padding: 20px;
+
+}
+.servicos.img{
+  border: #f5f5f5 solid 2em;
+}
+
+.servicos img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.servicos span{
+  color: #333;
+  font-size: 1.2em;
+  font-weight: 700;
+}
+
+.servicos p{
+  font-size: 1em;
+  color: #999;
+}
+
+.fotos{
+  background: #eeeeee;
+  padding: 20px;
+
+}
+
+.fotos h3{
+  font-size: 2em;
+  font-weight: 800;
+  columns: #999999;;
+  padding: 20px;
+
+}
+
+.fotos.img{
+  border: #f5f5f5 solid 2em;
+}
+
+.fotos img:hover{
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.depoimento {
+  margin-top: -20px;
+  background: #333;
+  padding-bottom: 30px;
+}
+
+.depoimento h3{
+  font-size: 2em;
+  font-weight: 700;
+  color: #f5f5f5;
+  padding-top: 30px;
+
+}
+
+.depoimento img{
+  max-width: 100%;
+  padding: 10px;
+}
+
+.depoimento h4{
+  font-size: 2em;
+  font-weight: 700;
+  color: #f5f5f5;
+  
+}
+
+.depoimento p{
+  color: #eeeeee
+}
+
+@media screen and (min-width: 960px) {
+  header {  
+    height: 600px;
+  
+  }
+  
+  .brand-logo{
+    margin-left:30px;
+  }
+
+  .desktop{
+    margin-top: 20px;
+    margin-right: 20px;
+  }
+
+  .desktop li a:hover{
+    border-bottom: 2px solid #f5f5f5;
+  }
+
+  .titulo{
+    margin-top: 200px;
+  }
+  
+  .titulo h1{
+    font-size: 6em;
+  }
+
+  .sobre h3{
+    font-size: 3em;
+   
+  }
+  
+   .texto-sobre{
+    margin-top: 50px;
+   }
+  .sobre span{
+    font-size: 1.1em;
+    
+
+  }
+
+  .servicos.img{
+    height: 500px;
+  }
+    
+}
